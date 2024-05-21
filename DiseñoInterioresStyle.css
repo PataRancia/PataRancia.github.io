@@ -1,12 +1,12 @@
 body{
-background-image:url('/RealPagHOME/Amba/fondo.jpg');
+background-image:url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/fondo.jpg?raw=true');
 background-color: rgba(236,206,160,0.7);
 background-blend-mode: lighten;
 background-repeat: repeat;
 }
 
 header{
-	background-image: url('/RealPagHOME/Amba/fda.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/fda.jpg?raw=true');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h2{
 }
 nav{
 	position: fixed;
-	background-image: url('/RealPagHOME/imagenes/cuadromenureal.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/cuadromenureal.jpg?raw=true');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-left: 86%;
@@ -127,7 +127,7 @@ article{
 
 footer{
 	clear: both;
-	background-image: url('/RealPagHOME/madera.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/madera.jpg?raw=true');
 	text-align: center;
 }
 p{
