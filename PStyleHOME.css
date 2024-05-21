@@ -1,7 +1,7 @@
 body{
 	width: 99%;
 	min-height: 100vh;
-	background-image: url('/RealPagHOME/imagenes/pastoHDREAL.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/pastoHDREAL.jpg?raw=true');
     background-size: cover;
     background-size: 100%;
     font-family: Segoe Script;
@@ -38,7 +38,7 @@ h1{
 
 nav{
 	position: fixed;
-	background-image: url('/RealPagHOME/imagenes/cuadromenureal.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/cuadromenureal.jpg?raw=true');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-left: 86%;
@@ -100,7 +100,7 @@ div{
 #pilar{
 	display: block;
 	position: absolute;
-	background-image: url('/RealPagHOME/imagenes/pilar.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/pilar.png?raw=true');
 	background-size: cover;
 	margin-top: -32px;
 	margin-left: -90px;
@@ -113,7 +113,7 @@ div{
 #entradapuerta{
 	position: absolute;
 	display: block;
-	background-image: url('/RealPagHOME/imagenes/puerta-principal-entrada-con-jardin-5.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/puerta-principal-entrada-con-jardin-5.jpg?raw=true');
 	background-size: 75%;
 	background-repeat: no-repeat;
 	margin-left: 79px;
@@ -125,7 +125,7 @@ div{
 
 #pilar2{
 	display: block;
-	background-image: url('/RealPagHOME/imagenes/pilar.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/pilar.png?raw=true');
 	background-size: cover;
 	position: absolute;
 	width: 200px;
@@ -136,7 +136,7 @@ div{
 }
 
 #paredventana{
-	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
 	background-color: rgba(236, 206, 160, 0.7);
     background-blend-mode: lighten; /*mezcla el color de fondo con la imagen*/
 	margin-left: 820px;
@@ -149,7 +149,7 @@ div{
 }
 
 #VentanaMenu{
-	background-image: url('/RealPagHOME/imagenes/NHDesigns-Ventanas2_zpse4cbd2fd.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/NHDesigns-Ventanas2_zpse4cbd2fd.png?raw=true');
 	background-color: black;
 	background-size: 100% 300px;
 	background-repeat: no-repeat;
@@ -186,7 +186,7 @@ div{
 	color: white;
 	border: 1 px solid black;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
 	background-blend-mode: lighten;
 	background-color: rgba(250, 158, 221, 0.9);
 	justify-content: space-between;
@@ -209,7 +209,7 @@ div{
 	color: white;
 	text-align: center;
 	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
-	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
 	background-blend-mode: lighten;
 	background-color: rgba(196, 245, 110, 0.9);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
@@ -233,7 +233,7 @@ div{
 	color: white;
 	text-align: center;
 	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
-	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
 	background-blend-mode: lighten;
 	background-color: rgba(255, 127, 140, 0.9);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
@@ -265,7 +265,7 @@ div{
 }
 
 #VentanaMenu:hover{
-	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
 	background-blend-mode: lighten;
 	background-color: rgba(245, 179, 110, 0.8);
 	z-index: 6;
@@ -273,7 +273,7 @@ div{
 }
 
 .puerta .izquierda{
-	background-image: url('/RealPagHOME/imagenes/puertaizquierdaventana.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/puertaizquierdaventana.png?raw=true');
 	background-repeat: no-repeat;
 	background-size: 100% 300px;
 	width: 50%;
@@ -295,7 +295,7 @@ div{
 }
 
 .puerta .derecha{
-	background-image: url('/RealPagHOME/imagenes/puertaderechaventana.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/puertaderechaventana.png?raw=true');
 	background-repeat: no-repeat;
 	background-size: 100% 300px;
 	width: 50%;
@@ -341,7 +341,7 @@ div{
 	display: inline-block;
 	margin-right: 150px;
 	margin-top: 15px;
-	background-image: url('/RealPagHOME/imagenes/coronadeflores.png');
+	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/coronadeflores.png?raw=true');
 	background-blend-mode: lighten;
 	background-attachment: fixed;
 	color: white;
@@ -387,7 +387,7 @@ footer{
 }
 
   #clockDiv {
-  	background-image: url('/RealPagHOME/imagenes/galatziaverdegi.gif');
+  	background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/galatziaverdegi.gif?raw=true');
   	background-blend-mode: lighten;
   	background-size: cover;
   	background-repeat: no-repeat;
