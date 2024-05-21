@@ -3,14 +3,14 @@ body{
   min-height: 100vh;
   font-family: Segoe Script;
   max-height: 100hv;
-  background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/fondoDeMiGGG.jpg?raw=true');
   background-color: rgba(236, 206, 160, 0.7);
   background-blend-mode: lighten;
 }
 
 nav{
   position: fixed;
-  background-image: url("/RealPagHOME/imagenes/cuadromenureal.jpg");
+  background-image: url("https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/cuadromenureal.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 86%;
@@ -89,7 +89,7 @@ article img{
   }
 
   header {
-    background-image: url("/RealPagHOME/imagenes/baner.jpg");
+    background-image: url("https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/baner.jpg?raw=true");
     background-blend-mode: lighten;
     background-color: rgba(237, 202, 144, 0.6);
     background-size:no-repeat;
@@ -138,7 +138,7 @@ a{
 }
 
 footer{
-  background-image: url("/RealPagHOME/imagenes/mc.jpg");
+  background-image: url("https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/mc.jpg?raw=true");
   background-blend-mode: lighten;
   background-color: rgba(237, 202, 144, 0.4);
   border-radius: 12px;
@@ -146,7 +146,7 @@ footer{
 }
 
 #bottonuno{
-  background-image: url("/RealPagHOME/imagenes/madera.jpg");
+  background-image: url("https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/madera.jpg?raw=true");
   background-blend-mode: lighten;
   background-color: rgba(188, 43, 6, 0.8);
   background-size: cover;
@@ -162,7 +162,7 @@ footer{
 
 #bottondos{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/wood.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@ footer{
 
 #bottontres{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/madera.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ footer{
 
 #bottoncuatro{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/wood.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ footer{
 
 #bottoncinco{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/madera.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@ footer{
 
 #bottonseis{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/wood.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@ footer{
 
 #bottonsiete{
   background-color: rgba(188, 43, 6, 0.8);
-  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/madera.jpg?raw=true');
   background-blend-mode: lighten;
   background-size: cover;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ footer{
 }
 
 #clockDiv {
-    background-image: url('/RealPagHOME/imagenes/galatziaverdegi.gif');
+    background-image: url('https://github.com/PataRancia/PataRancia.github.io/blob/RealPagHOME/imagenes/galatziaverdegi.gif?raw=true');
     background-blend-mode: lighten;
     background-size: cover;
     background-repeat: no-repeat;
