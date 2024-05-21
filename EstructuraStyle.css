@@ -1,0 +1,212 @@
+body{
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-blend-mode: lighten;
+	background-color: rgba(236,206,160,0.7);
+	font-size: 120%;
+}
+
+nav{
+	position: fixed;
+	background-image: url('/RealPagHOME/imagenes/cuadromenureal.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 86%;
+	margin-top: 2vh;
+	height: 98px;
+	width: 140px;
+	z-index: 9;
+}
+
+.contenidohome{
+	display: none; /*oculta el menú por defecto*/
+	position: absolute;  /*posiciona el menú con respecto al contenedor*/
+	background-color: rgba(134, 105, 55, 0.6);
+	min-width: 160px; /*ancho mínimo del menú.*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*añade una sombra al menú*/
+    z-index: 9; /*asegura que el menú se muestre por encima de otros elementos.*/
+    border-radius :12px;
+}
+
+.contenidohome a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none; /*elimina el subrayado de los enlaces*/
+    display: block; /*hace que cada enlace ocupe toda la línea*/
+    font-family: Lucida Handwriting, papyrus ;
+
+}
+
+#marco{
+	margin-top: -18px;
+	margin-left: -14px;
+	width: 119%;
+}
+
+a:hover {background-color: #ddd; border-radius: 12px; }
+
+nav:hover .contenidohome {display: block; 
+    z-index: 9; position:relative; }
+
+
+header{
+    	background-image: url('/RealPagHOME/imagenes/gifoarquitectonico.gif');
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	width: 100%;
+    	height: 250px;
+    	display: block;
+    	margin-top: 0px;
+    	border-radius: 12px;
+    	border: 1px solid darkorange;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    #chn{
+    	background-color: rgba(134, 105, 55, 0.8);
+    	border-radius: 12px;
+    	width: 10%;
+    	height: 50px;}
+
+    h4{
+    	width: 100%;
+    	text-align: center;
+    }
+
+    #tituloreal{
+    font-family:Monotype Corsiva, Footlight MT Light;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	color: darkorange;
+	font-size: 70px;
+    }
+
+    a{font-family: Lucida Handwriting, papyrus ;}
+
+.parteuno{
+	border: 1px solid black;
+	margin: 10px;
+	display: block;
+	padding: 15px;
+	text-align: justify;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.parteuno img{
+	width: 30%;
+	float: right;
+	margin-left: 50%;
+	margin: 10px;
+	border-radius: 12px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position: relative;
+	margin-top: -30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  text-align: justify;
+}
+
+.container div {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.container .center {
+  grid-column: span 2;
+  grid-row: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .center img {
+  position: absolute;
+  border-radius: 50%;
+  width: 45%;
+  height: auto;
+  margin-top: -950px;
+}
+
+.container .center{
+	 border: none;
+
+}
+
+#tetzto1{box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+#tetzto2{box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+#tetzto3{
+	text-align: justify;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#tetzto3 p{
+	width: 50%;
+	float: left;
+}
+
+#tetzto4{
+	text-align: justify;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#tetzto4 p{
+	width: 50%;
+	float: right;
+}
+
+.partetres{
+	border: 1px solid black;
+	margin: 10px;
+	display: block;
+	padding: 15px;
+	text-align: justify;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#cubitoizq{
+	width: 50%;
+	float: left;
+	background-color: rgba(134, 105, 55, 0.6);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin: 15px;
+	padding: 15px;
+	border-radius: 12px;
+	text-align: justify;
+}
+
+.partetres img{
+	width: 40%;
+	border-radius: 12px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#cubitoderech{
+	width: 50%;
+	float: right;
+	background-color: rgba(134, 105, 55, 0.6);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin: 15px;
+	padding: 15px;
+	border-radius: 12px;
+	text-align: justify;
+}
+
+footer{
+	background-color: rgba(134, 105, 55, 0.6);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+footer a{
+	float: right;
+	font-size: 30px;
+}

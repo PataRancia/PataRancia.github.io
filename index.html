@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Casas, su estrucrura, decoración e historia. Presentamos información, imágenes, y videos sobre estos 3 temas principales que se irán desglozando en el contenido.">
+	<meta name="author" content="1- Ambar Donají R.O. 2- Rodrigo Xilot C. 3- Fabiola Cuevas M.">
+	<link rel="icon" type="image/png" href="\RealPagHOME\patitocasa.png">
+	<link rel="stylesheet" type="text/css" href="PStyleHOME.css">
+
+	<title>Mi Hogar... Inicio</title>
+</head>
+<header>
+
+	<nav>
+		<img src="\RealPagHOME\imagenes\66-667897_victorian-border-frame-png.png" id="marco">
+		<button class="contenidohome">
+		<a href="\RealPagHOME\Amba\diseñodeinteriores.html">Diseño de interiores</a>
+		<a href=\RealPagHOME\Xilijibiñij\Historia.html>Historia</a>
+		<a href="\RealPagHOME\HomeEstructura.html">Estructura</a>
+		<a href="\RealPagHOME\index.html"> Inicio</a>
+		</button>
+	</nav>
+	</header>
+
+
+	<div id="fondoo">
+		<span id="pilar"></span>
+		<span id="entradapuerta"></span>
+		<span id="pilar2"></span>
+		<span id="paredventana">
+			<h1 id="titulazorealprincipal">Mi Hogar</h1>
+			<div id="clockDiv"></div>
+			
+        <section id="VentanaMenu">
+
+        	<section class="contenidoventana">
+
+
+        	<div class="cubitounov"> <p>Diseño de interiores</p>
+        		<img src="/RealPagHOME/imagenes/diseñodeinterioresgi.gif" width="100%" id="imgdeDiseñoDInte" title="El diseño de interiores es una disciplina profesional que se ocupa de crear y diseñar espacios interiores. Su objetivo es manipular el volumen espacial y tratar la superficie para lograr una realidad estética que satisfaga nuestros sentidos. A diferencia de la decoración, el diseño de interiores considera aspectos arquitectónicos, ecológicos, psicológicos y de diseño industrial.">
+        		<button id="conocemas"> <a href="\RealPagHOME\Amba\diseñodeinteriores.html"> Conoce más </a> </button>
+
+        	</div>
+        	<div class="cubitodosv"> <p>Historia</p> <br>
+        	
+        		<img src="/RealPagHOME/imagenes/historiaDlaArquitectura.gif" width="100%" id="gifhistoriaarqui" title="La historia de la arquitectura es la rama de la historia del arte que estudia la evolución histórica de la arquitectura, sus principios, ideas y realizaciones.">
+        		<button id="conocemas"> <a href="\RealPagHOME\Xilijibiñij\Historia.html"> Conoce más </a> </button>
+        	</div>
+
+        	<div class="cubitotresv"> <p>Estructura</p> <br>
+        		<img src="/RealPagHOME/imagenes/giphyplanosreal.gif" width="100%" id="gifplanosarqui" title="Estructura en arquitectura se refiere al sistema de elementos que sostienen y distribuyen las cargas de un edificio hacia el suelo de manera segura y eficiente. Más allá de su función puramente técnica, la estructura también influye en la estética y la experiencia espacial de un edificio.">
+
+
+        		<button id="conocemas"> <a href="\RealPagHOME\imagenes\HomeEstructura.html"> Conoce más </a> </button>
+          </div>
+
+
+        	</section>
+        	
+        <section class="puerta">
+        		<section class="izquierda"></section>
+        		<section class="derecha"></section>
+
+        	</section>
+
+        	<section id="cubitoAbajoDeLaV"> <marquee><h1>Empieza a conocer ↑</h1></marquee>
+       <h4>El lugar donde te informaremos sobre 3 aspectos principales para tu casa ideal. <br> Para mejor experiencia use la pantalla completa y horizontal.</h4> </section>
+
+        </section>
+
+		
+	</div>
+	<footer id="tapete"> &copy; 2024 Us. Todos los derechos reservados. </footer>
+
+<section id="pastoconlasredes">
+
+	<span id="bordeboton"> <img src="/RealPagHOME/imagenes/coronadeflores.png" width="150px"> <button onclick="window.location.href='https://www.instagram.com/marci_patarancia?¡qsh=MTlrYWRkY2FjrnUweQ=='"> Instagram </button> </span>
+	<span id="bordeboton"> <img src="/RealPagHOME/imagenes/coronadeflores.png" width="150px"> <button onclick="window.location.href='https://www.pinterest.com/ZazWiwiWWWWw'"> Pinterest </button> </span>
+	<span id="bordeboton"> <img src="/RealPagHOME/imagenes/coronadeflores.png" width="150px"> <button onclick="window.location.href='https://open.spotify.com/playlist/6ARxFYN99WbnkvSCGJJ2w7?si=cdcaf4881ae34d42'"> Spotify </button> </span>
+
+</section>
+
+<footer id="patafinal"> <p>Creación: 08/05/2024.  Ultima actualización: 19/05/2024. <br> 
+	Contacto: kamiruzufabiola@gmail.com <br> <br> 
+	Página personal (de grupo) sin autores calificados en el tema <br> 
+     El propósito de ésta página es informar al usuario sobre las casas en general, por el mero gusto de éstas y sin fines de conocimiento profesional. </p>
+</footer>
+
+ <h4 id="msjarriba">vaya arriba <a href="#titulazorealprincipal"> ↑ </a> </h4>
+
+<script>
+        function getClock() {
+            const date = new Date();
+            let hr = date.getHours();
+            let min = date.getMinutes();
+            let sec = date.getSeconds();
+            let period = "AM";
+
+            if (hr == 0) {
+                hr = 12;
+            }
+            if (hr > 12) {
+                hr = hr - 12;
+                period = "PM";
+            }
+
+            hr = ("0" + hr).slice(-2);
+            min = ("0" + min).slice(-2);
+            sec = ("0" + sec).slice(-2);
+
+            const day = date.getDate();
+            const month = date.getMonth() + 1;
+            const year = date.getFullYear();
+
+            document.getElementById("clockDiv").innerHTML = `${hr}:${min}:${sec} ${period} - ${month}/${day}/${year}`;
+        }
+
+        setInterval(getClock, 1000);
+    </script>
+
+</body>
+</html>

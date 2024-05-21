@@ -1,0 +1,264 @@
+body{
+  width: 99%;
+  min-height: 100vh;
+  font-family: Segoe Script;
+  max-height: 100hv;
+  background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+  background-color: rgba(236, 206, 160, 0.7);
+  background-blend-mode: lighten;
+}
+
+nav{
+  position: fixed;
+  background-image: url("/RealPagHOME/imagenes/cuadromenureal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 86%;
+  margin-top: 3vh;
+  height: 98px;
+  width: 140px;
+  z-index: 9;
+}
+
+nav img{
+  border-radius: 0px;
+}
+
+.contenidohome{
+  display: none; /*oculta el menú por defecto*/
+  position: absolute;  /*posiciona el menú con respecto al contenedor*/
+  background-color: rgba(134, 105, 55, 0.6);
+  min-width: 160px; /*ancho mínimo del menú.*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*añade una sombra al menú*/
+  z-index: 9; /*asegura que el menú se muestre por encima de otros elementos.*/
+  border-radius :12px;
+}
+
+.contenidohome a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none; /*elimina el subrayado de los enlaces*/
+  display: block; /*hace que cada enlace ocupe toda la línea*/
+  font-family: Lucida Handwriting, papyrus ;
+
+}
+
+#marco{
+  margin-top: -18px;
+  margin-left: -14px;
+  width: 119%;
+}
+
+a:hover {background-color: #ddd; border-radius: 12px}
+
+nav:hover .contenidohome {display: block; 
+    z-index: 9; position:relative;}
+
+  div#general{
+    margin: auto;
+    width: 100%;
+    height: 7595px;
+    font-display:right ;
+    border-radius: 12px;
+  }
+
+  div#ofertas{
+  
+    width: 350px;
+    height: 100vh;
+    background-color: rgba(2, 2, 2, 0.2);
+    border-radius: 12px;
+    position: fixed;
+
+  }
+
+
+header, section, footer, article, figure, figcaption, div, hgroup, footer{
+display: block;
+} 
+
+article img{
+  border-radius: 12px;
+  width: 50%;
+}
+
+#agrupar {
+   width: 960px;
+   margin: 15px auto;
+   text-align: center;
+  }
+
+  header {
+    background-image: url("/RealPagHOME/imagenes/baner.jpg");
+    background-blend-mode: lighten;
+    background-color: rgba(237, 202, 144, 0.6);
+    background-size:no-repeat;
+    height: 150px;
+    width: 100%;
+    font-size: 100px;
+    text-shadow:  -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+    margin-top: -119px;
+}
+h3{
+  color: darkorange;
+  font-family:Monotype Corsiva, Footlight MT Light;
+  text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+}
+
+article{
+  float: right;
+  width: 73%;
+  padding: 0.5 em 2 em;
+  border: 1px solid black;
+  text-align: justify;
+  font-size: 120%;
+  border-radius: 12px;
+  margin: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgba(188, 43, 6, 0.3);
+}
+
+p {
+  padding: 20px;
+  text-align: justify;
+}
+
+section{
+  font-size: 150%;
+}
+
+video{
+  width: 340px;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+a{
+  color: rgba(188, 43, 6, 0.8);
+}
+
+footer{
+  background-image: url("/RealPagHOME/imagenes/mc.jpg");
+  background-blend-mode: lighten;
+  background-color: rgba(237, 202, 144, 0.4);
+  border-radius: 12px;
+  margin-top: auto;
+}
+
+#bottonuno{
+  background-image: url("/RealPagHOME/imagenes/madera.jpg");
+  background-blend-mode: lighten;
+  background-color: rgba(188, 43, 6, 0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+}
+
+#bottondos{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;  
+  text-align: center;
+  margin: 10px;
+}
+
+#bottontres{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;  
+  text-align: center;
+  margin: 10px;
+}
+
+#bottoncuatro{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+#bottoncinco{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+#bottonseis{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/wood.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+#bottonsiete{
+  background-color: rgba(188, 43, 6, 0.8);
+  background-image: url('/RealPagHOME/imagenes/madera.jpg');
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+#clockDiv {
+    background-image: url('/RealPagHOME/imagenes/galatziaverdegi.gif');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    font-size: 18px;
+    color: #333;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(114, 174, 68, 0.4);
+    border-radius: 12px;
+    color: white;
+    margin: 10px;
+}

@@ -1,0 +1,407 @@
+body{
+	width: 99%;
+	min-height: 100vh;
+	background-image: url('/RealPagHOME/imagenes/pastoHDREAL.jpg');
+    background-size: cover;
+    background-size: 100%;
+    font-family: Segoe Script;
+    max-height: 100hv;
+}
+
+#titulazorealprincipal{
+	margin-top: 0px;
+	width: 20%;
+	height: 100px;
+	margin-left: 35px;
+	font-family:Monotype Corsiva, Footlight MT Light;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	font-size: 70px;
+	color: darkorange;
+}
+
+h4{ 
+	margin-top: 0px;
+	width: 100%;
+	display: block;
+	height: 100px;
+	background-color: rgba(134, 105, 55, 0.6);
+	text-align: center;
+	border-radius :12px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border: 1px solid black;
+}
+
+h1{
+	width: 100%;
+	height: 100px;
+}
+
+nav{
+	position: fixed;
+	background-image: url('/RealPagHOME/imagenes/cuadromenureal.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 86%;
+	margin-top: 3vh;
+	height: 98px;
+	width: 140px;
+	z-index: 9;
+}
+
+.contenidohome{
+	display: none; /*oculta el menú por defecto*/
+	position: absolute;  /*posiciona el menú con respecto al contenedor*/
+	background-color: rgba(134, 105, 55, 0.6);
+	min-width: 160px; /*ancho mínimo del menú.*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*añade una sombra al menú*/
+    z-index: 9; /*asegura que el menú se muestre por encima de otros elementos.*/
+    border-radius :12px;
+}
+
+.contenidohome a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none; /*elimina el subrayado de los enlaces*/
+    display: block; /*hace que cada enlace ocupe toda la línea*/
+    font-family: Lucida Handwriting, papyrus ;
+
+}
+
+#marco{
+	margin-top: -18px;
+	margin-left: -14px;
+	width: 119%;
+}
+
+a:hover {background-color: #ddd; border-radius: 12px}
+
+nav:hover .contenidohome {display: block; 
+    z-index: 9; position:relative; }
+
+div{
+	width: 100%;
+	height: 830px;
+}
+#tapete{
+	background-color: transparent;
+	width: 220px;
+    bottom: 140px;
+	height: 50px;
+	text-align:center;
+	padding: 1px;
+	margin-left: 338px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 30px;
+	color: white;
+	font-family: Monotype Corsiva, Vladimir Script;
+}
+
+#pilar{
+	display: block;
+	position: absolute;
+	background-image: url('/RealPagHOME/imagenes/pilar.png');
+	background-size: cover;
+	margin-top: -32px;
+	margin-left: -90px;
+	width: 200px;
+	height: 890px;
+	z-index: 3;
+
+}
+
+#entradapuerta{
+	position: absolute;
+	display: block;
+	background-image: url('/RealPagHOME/imagenes/puerta-principal-entrada-con-jardin-5.jpg');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	margin-left: 79px;
+	width: 900px;
+	margin-top: -8px;
+	height: 830px;
+	z-index: 1;
+}
+
+#pilar2{
+	display: block;
+	background-image: url('/RealPagHOME/imagenes/pilar.png');
+	background-size: cover;
+	position: absolute;
+	width: 200px;
+	height: 890px;
+	z-index: 3;
+	margin-left: 653px;
+	margin-top: -32px;
+}
+
+#paredventana{
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-color: rgba(236, 206, 160, 0.7);
+    background-blend-mode: lighten; /*mezcla el color de fondo con la imagen*/
+	margin-left: 820px;
+	margin-top: -10px;
+	width: 56%;
+	height: 822px;
+	display: flex;
+	z-index: 1;
+	position: relative;
+}
+
+#VentanaMenu{
+	background-image: url('/RealPagHOME/imagenes/NHDesigns-Ventanas2_zpse4cbd2fd.png');
+	background-color: black;
+	background-size: 100% 300px;
+	background-repeat: no-repeat;
+	margin-top:200px;
+	width: 50%;
+	height: 300px;
+	z-index: 4;
+	position: relative;
+}
+
+#VentanaMenu .contenidoventana{
+	visibility: hidden;
+}
+
+#VentanaMenu:hover .contenidoventana{
+	margin-top: -22px;
+	width: 100%;
+	height: 300px;
+	visibility: visible;
+	z-index: 5;
+	position: relative;
+}
+
+#VentanaMenu:hover .contenidoventana .cubitounov{
+	position: absolute;
+	display: inline-block;
+	background-color: transparent;
+	width: 33%;
+	height: 300px;
+	z-index: 5;
+	margin-top: 22px;
+	text-align: center;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	color: white;
+	border: 1 px solid black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-blend-mode: lighten;
+	background-color: rgba(250, 158, 221, 0.9);
+	justify-content: space-between;
+}
+
+#imgdeDiseñoDInte{
+	border-radius: 100%;
+	height: 150px;
+}
+
+#VentanaMenu:hover .contenidoventana .cubitodosv{
+	position: absolute;
+	display: inline-block;
+	background-color: pink;
+	width: 34%;
+	height: 300px;
+	z-index: 5;
+	margin-left: 33%;
+	margin-top: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-blend-mode: lighten;
+	background-color: rgba(196, 245, 110, 0.9);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	justify-content: space-between;
+}
+
+#gifhistoriaarqui{
+	border-radius: 100%;
+	height: 150px;
+}
+
+#VentanaMenu:hover .contenidoventana .cubitotresv{
+	position: absolute;
+	display: inline-block;
+	background-color: skyblue;
+	width: 33%;
+	height: 300px;
+	z-index: 5;
+	margin-left: 67%;
+	margin-top: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-blend-mode: lighten;
+	background-color: rgba(255, 127, 140, 0.9);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	justify-content: space-between;
+}
+
+#gifplanosarqui{
+	border-radius: 100%;
+	height: 150px;
+}
+
+#conocemas{
+	width: 80%;
+	height: 50px;
+	background-color: rgba(134, 105, 55, 0.6);
+	border: 1 px solid black;
+	border-radius: 12px;
+    position: relative;
+}
+
+
+.puerta{
+	margin-top: -3px;
+	margin-left: -8px;
+	width: 107%;
+	height: 300px;
+	z-index: 4;
+	position: relative;
+}
+
+#VentanaMenu:hover{
+	background-image: url('/RealPagHOME/imagenes/fondoDeMiGGG.jpg');
+	background-blend-mode: lighten;
+	background-color: rgba(245, 179, 110, 0.8);
+	z-index: 6;
+	position: relative;
+}
+
+.puerta .izquierda{
+	background-image: url('/RealPagHOME/imagenes/puertaizquierdaventana.png');
+	background-repeat: no-repeat;
+	background-size: 100% 300px;
+	width: 50%;
+	height: 300px;
+	left: 0;
+	transform-origin: left;
+	z-index: 4;
+	visibility: hidden;
+	margin-top: -278px;
+	margin-left: 2%;
+	position: relative;
+}
+
+#VentanaMenu:hover .puerta .izquierda{
+	transform: rotateY(150deg); 
+	z-index: 4;
+	visibility: visible;
+	position: relative;
+}
+
+.puerta .derecha{
+	background-image: url('/RealPagHOME/imagenes/puertaderechaventana.png');
+	background-repeat: no-repeat;
+	background-size: 100% 300px;
+	width: 50%;
+	height: 300px;
+	margin-top: -300px;
+	margin-left: 45%;
+	transform-origin: right;
+	z-index: 4;
+	visibility: hidden;
+	position: relative;
+}
+
+#VentanaMenu:hover .puerta .derecha{
+	transform: rotateY(150deg); 
+	z-index: 4;
+	visibility: visible;
+	position: relative;
+}
+
+#cubitoAbajoDeLaV{
+	position: relative;
+	z-index: 6;
+	margin-top: -2200px;
+	pointer-events: none;
+	text-align: justify;
+}
+
+#pastoconlasredes{
+	height: 100%;
+	text-align: center;
+}
+
+#pastoconlasredes #bordeboton button{
+	width: 100px;
+	height: 100px;
+	z-index: 6;
+	background-color: rgba(134, 105, 55, 0.6);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 100%;
+	cursor: pointer;
+	position: relative;
+	color: black;
+	display: inline-block;
+	margin-right: 150px;
+	margin-top: 15px;
+	background-image: url('/RealPagHOME/imagenes/coronadeflores.png');
+	background-blend-mode: lighten;
+	background-attachment: fixed;
+	color: white;
+	font-family: Lucida Handwriting, papyrus ;
+}
+
+bordeboton{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	z-index: 7;
+}
+
+#pastoconlasredes span img{
+	margin-left: -25px;
+	position: absolute;
+	z-index: 5;
+
+}
+
+#pastoconlasredes #bordeboton button:hover{
+	background-color: rgba(254, 240, 219, 0.6);
+	color: black;
+
+}
+
+footer{
+	color: white;
+	bottom: 0px;
+}
+
+#msjarriba{
+	position: absolute;
+	margin-top: 1600px;
+	font-size: 30px;
+	margin-left: -9px;
+}
+
+#patafinal{
+	margin-top: 35px;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+}
+
+  #clockDiv {
+  	background-image: url('/RealPagHOME/imagenes/galatziaverdegi.gif');
+  	background-blend-mode: lighten;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	position: absolute;
+    font-size: 18px;
+    color: #333;
+    margin-left: 190px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(114, 174, 68, 0.4);
+    border-radius: 12px;
+    color: white;
+}
+

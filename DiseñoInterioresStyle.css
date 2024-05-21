@@ -1,0 +1,143 @@
+body{
+background-image:url('/RealPagHOME/Amba/fondo.jpg');
+background-color: rgba(236,206,160,0.7);
+background-blend-mode: lighten;
+background-repeat: repeat;
+}
+
+header{
+	background-image: url('/RealPagHOME/Amba/fda.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	width: 100%;
+	display: block;
+	border: 1px solid black;
+	position:fixed;
+	top:0px;
+	height:220px;
+	background-color: #DEB887;
+}
+#tituloprincipal{
+	font-family:Monotype Corsiva, Footlight MT Light;
+	text-shadow: -2px 0 crimson, 0 2px crimson, 2px 0 crimson, 0 -2px crimson;
+	color: darkorange;
+	font-size: 50px;
+}
+
+
+#clock{
+	font-size: 26px;
+	color: #DEB887;
+	position: fixed;
+	background-position: right;
+	margin-top: 18px;
+	margin-left:16px;
+	width: 119%;
+}
+h1{
+	text-align: center;
+	color: black;
+
+}
+h2{
+	height: px0;
+}
+nav{
+	position: fixed;
+	background-image: url('/RealPagHOME/imagenes/cuadromenureal.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 86%;
+	margin-top: -13vh;
+	height: 98px;
+	width: 140px;
+	z-index: 9;
+}
+
+.contenidohome{
+	display: none; /*oculta el menú por defecto*/
+	position: absolute;  /*posiciona el menú con respecto al contenedor*/
+	background-color: rgba(134, 105, 55, 0.6);
+	min-width: 160px; /*ancho mínimo del menú.*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*añade una sombra al menú*/
+    z-index: 9; /*asegura que el menú se muestre por encima de otros elementos.*/
+    border-radius :12px;
+}
+
+.contenidohome a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none; /*elimina el subrayado de los enlaces*/
+    display: block; /*hace que cada enlace ocupe toda la línea*/
+    font-family: Lucida Handwriting, papyrus ;
+
+}
+
+#marco{
+	margin-top: -18px;
+	margin-left: -14px;
+	width: 119%;
+}
+
+a:hover {background-color: #ddd; border-radius: 12px}
+
+nav:hover .contenidohome {display: block; 
+    z-index: 9; 
+background-color: rgba(134,105,55,0.6);
+border-radius: 12px;}
+span{
+    border-radius: 20px ;
+    border: 4px solid #fff;
+	justify-content: space-between;
+	display: inline-block;
+    margin-top: 250px;
+	font-style:initial;
+    color: black;
+	background-color: rgba(191, 172, 166, 0.5);
+	top:100%;
+	height: 20%;
+	width: 18%;
+	text-align: justify;
+}
+
+span img{
+	border-radius: 12px;
+}
+
+#height{
+height: 20px;
+length: 15px;
+}
+
+section{
+background-color: rgba(191, 172, 166, 0.5);
+border-radius:15px;
+top:100px;
+border: 1px solid black;
+margin: 10px;
+text-align: justify;
+    
+}
+article{
+	padding: 0.5em 2em;
+	text-align: justify;
+}
+
+footer{
+	clear: both;
+	background-image: url('/RealPagHOME/madera.jpg');
+	text-align: center;
+}
+p{
+	font-size: 25px;
+}
+
+section img{
+	border-radius: 12px;
+}
+
+header img{
+	margin-top: -40px;
+}
