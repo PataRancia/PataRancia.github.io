@@ -81,7 +81,7 @@ nav{
 	width: 119%;
 }
 
-a:hover {background-color: #ddd; border-radius: 12px}
+a:hover {background-color: #ddd; border-radius: 12px;}
 
 nav:hover .contenidohome {display: block; 
     z-index: 9; 
